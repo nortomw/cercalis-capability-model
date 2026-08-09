@@ -1,0 +1,123 @@
+# Evolution
+
+Capabilities are not static assets.
+
+The Cercalis Capability Model treats evolution, maturity and evidence as part of the architecture of the platform.
+
+## Capability lifecycle
+
+A Capability progresses through an explicit lifecycle:
+
+```text
+Idea
+  ↓
+Design
+  ↓
+Development
+  ↓
+Beta
+  ↓
+Production
+  ↓
+Optimization
+  ↓
+Obsolete
+```
+
+Progression is governed.
+
+A Capability does not advance only because development has finished. Each stage represents a different level of structural definition, implementation and confidence.
+
+## From definition to production
+
+At a conceptual level:
+
+- **Idea → Design** requires a sufficiently defined and distinguishable Capability.
+- **Design → Development** requires its structural model to be defined.
+- **Development → Beta** requires validation knowledge and an executable implementation path.
+- **Beta → Production** requires sufficient evidence.
+- **Production → Optimization** is driven by new evidence from real use.
+- **Obsolescence** must preserve dependency and migration traceability.
+
+Detailed operational thresholds remain internal to Cercalis.
+
+## Calibration
+
+Calibration represents the platform's confidence in a Capability based on accumulated evidence.
+
+> Production is an evidence state, not merely a deployment state.
+
+A technically deployed Capability and a sufficiently validated Capability are therefore not treated as equivalent.
+
+Calibration is versioned so that new evidence improves the model without erasing its history.
+
+## Learning from real use
+
+```text
+Capability
+    ↓
+Real use
+    ↓
+Evidence
+    ↓
+Calibration
+    ↓
+Learning
+    ↓
+Capability evolution
+```
+
+This creates a controlled feedback loop between what the platform knows and what happens in real environments.
+
+## Reuse as a roadmap criterion
+
+The roadmap is organized around Capabilities rather than isolated features.
+
+A roadmap entry represents either:
+
+1. a new Capability, or
+2. the evolution of an existing Capability.
+
+Prioritization considers:
+
+- evidence of real demand,
+- reuse of existing architecture, components and validation knowledge,
+- and maturity of dependent Capabilities.
+
+Reuse is therefore not only an implementation technique. It influences how the platform evolves.
+
+## Evolution without arbitrary replacement
+
+When a Capability changes, traceability is preserved.
+
+The purpose is to avoid repeatedly rebuilding the same knowledge under different implementations or technologies.
+
+## Governed obsolescence
+
+A Capability should not disappear while active services or implementations still depend on it without a migration path or explicit resolution of those dependencies.
+
+## The underlying principle
+
+```text
+Understand
+   ↓
+Structure
+   ↓
+Validate
+   ↓
+Implement
+   ↓
+Measure
+   ↓
+Learn
+   ↓
+Evolve
+```
+
+Technology participates in that cycle.
+
+It does not replace the criteria that govern it.
+
+---
+
+**Understand before building. Build to validate.**
