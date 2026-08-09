@@ -38,7 +38,98 @@ Necesidad de negocio
         │
         ├── Servicios e integraciones
         │
-        └── Madurez y calibración# Capability Model
+        └── Madurez y calibración
+```
+
+Estos dominios están relacionados, pero no son intercambiables.
+
+## Contexto
+
+Una Capability existe para un contexto concreto.
+
+El modelo separa el **propósito de una solución**, su **especialización funcional** y su **tecnología de implementación**.
+
+Esto evita que la tecnología sustituya a la comprensión de la necesidad de negocio.
+
+## Arquitectura
+
+La arquitectura describe el modelo estructural esperado para una Capability.
+
+No es una plantilla visual.
+
+Representa relaciones estructurales como la organización de la información, la navegación y la estructura de contenidos.
+
+Las implementaciones técnicas pueden variar manteniendo la misma arquitectura conceptual.
+
+## Componentes
+
+Los componentes son unidades reutilizables de construcción dentro de una arquitectura.
+
+Se diseñan para ser reutilizados entre Capabilities y no para un único cliente.
+
+## Reglas y evidencias
+
+Las reglas definen condiciones verificables sobre el modelo estructural.
+
+Cuando una regla se evalúa, produce evidencia: un resultado observable, no una interpretación ni una decisión.
+
+Cercalis separa:
+
+- qué se esperaba,
+- qué se ha observado,
+- qué significan esas observaciones,
+- y qué acción debería producirse.
+
+## Hallazgos, recomendaciones e implementaciones
+
+La evidencia puede interpretarse para producir un **Hallazgo**.
+
+Un Hallazgo describe el significado de una o varias observaciones relacionadas.
+
+Una **Recomendación** convierte ese diagnóstico en una dirección accionable: qué debería hacerse.
+
+Una **Implementación** define cómo puede ejecutarse esa recomendación.
+
+## Implementaciones y servicios no son lo mismo
+
+Una **Implementación** corrige o mejora una solución existente.
+
+Un **Servicio** amplía lo que un cliente puede hacer.
+
+Esta distinción evita convertir la oferta comercial, las acciones técnicas y el conocimiento reutilizable de la plataforma en un único concepto.
+
+## Integraciones
+
+Las integraciones conectan módulos, productos, sistemas externos o proveedores de inteligencia artificial.
+
+Su función es transportar comunicación y exponer capacidades.
+
+La lógica de negocio permanece en el dominio al que pertenece.
+
+## ¿Por qué modelar las capacidades de esta forma?
+
+Porque la plataforma necesita responder a algo más que:
+
+> «¿Podemos construirlo?»
+
+También necesita comprender:
+
+- ¿Qué necesidad de negocio resuelve?
+- ¿Qué conocimiento existe ya?
+- ¿Qué puede reutilizarse?
+- ¿Cómo puede validarse la estructura esperada?
+- ¿Qué evidencia sustenta una decisión?
+- ¿Qué acción se deriva de esa evidencia?
+- ¿Qué nivel de madurez tiene la Capability?
+- ¿Cómo puede evolucionar sin perder trazabilidad?
+
+La Capability es la unidad que mantiene conectadas todas estas preguntas.
+
+---
+
+# English
+
+# Capability Model
 
 ## Purpose
 
@@ -85,7 +176,9 @@ These domains are related, but they are not interchangeable.
 
 A Capability exists for a concrete context.
 
-The model separates the **purpose of a solution**, its **functional specialization** and its **implementation technology**. This prevents technology from becoming a substitute for understanding the business need.
+The model separates the **purpose of a solution**, its **functional specialization** and its **implementation technology**.
+
+This prevents technology from becoming a substitute for understanding the business need.
 
 ## Architecture
 
@@ -93,7 +186,9 @@ Architecture describes the structural model expected for a Capability.
 
 It is not a visual template.
 
-It represents structural relationships such as information organization, navigation and content structure. Technical implementations may differ while preserving the same conceptual architecture.
+It represents structural relationships such as information organization, navigation and content structure.
+
+Technical implementations may differ while preserving the same conceptual architecture.
 
 ## Components
 
@@ -136,7 +231,9 @@ This distinction prevents commercial offerings, technical actions and reusable p
 
 Integrations connect modules, products, external systems or AI providers.
 
-Their role is to transport communication and expose capabilities. Business logic remains with the domain that owns it.
+Their role is to transport communication and expose capabilities.
+
+Business logic remains with the domain that owns it.
 
 ## Why model capabilities this way?
 
