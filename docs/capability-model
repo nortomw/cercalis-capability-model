@@ -1,4 +1,44 @@
+# Español
+
 # Capability Model
+
+## Propósito
+
+El Cercalis Capability Model proporciona un lenguaje común para conectar necesidades de negocio, conocimiento estructural, validación, implementación y evolución.
+
+Una Capability no es un registro plano.
+
+Es una unidad de conocimiento reutilizable que conecta **contexto, estructura, evidencia, acción, servicios y madurez**.
+
+## Qué conecta una Capability
+
+```text
+Necesidad de negocio
+        │
+        ▼
+    Capability
+        │
+        ├── Contexto
+        │     ├── Propósito
+        │     ├── Dominio / sector
+        │     └── Contexto tecnológico
+        │
+        ├── Estructura
+        │     ├── Arquitectura
+        │     └── Componentes
+        │
+        ├── Validación
+        │     ├── Reglas
+        │     ├── Evidencias
+        │     └── Hallazgos
+        │
+        ├── Acción
+        │     ├── Recomendaciones
+        │     └── Implementaciones
+        │
+        ├── Servicios e integraciones
+        │
+        └── Madurez y calibración# Capability Model
 
 ## Purpose
 
