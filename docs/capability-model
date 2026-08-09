@@ -1,0 +1,118 @@
+# Capability Model
+
+## Purpose
+
+The Cercalis Capability Model provides a common language for connecting business needs, structural knowledge, validation, implementation and evolution.
+
+A Capability is not a flat feature record.
+
+It is a unit of reusable knowledge that connects **context, structure, evidence, action, services and maturity**.
+
+## What a Capability connects
+
+```text
+Business need
+     │
+     ▼
+  Capability
+     │
+     ├── Context
+     │     ├── Purpose
+     │     ├── Domain / sector
+     │     └── Technology context
+     │
+     ├── Structure
+     │     ├── Architecture
+     │     └── Components
+     │
+     ├── Validation
+     │     ├── Rules
+     │     ├── Evidence
+     │     └── Findings
+     │
+     ├── Action
+     │     ├── Recommendations
+     │     └── Implementations
+     │
+     ├── Services & integrations
+     │
+     └── Maturity & calibration
+```
+
+These domains are related, but they are not interchangeable.
+
+## Context
+
+A Capability exists for a concrete context.
+
+The model separates the **purpose of a solution**, its **functional specialization** and its **implementation technology**. This prevents technology from becoming a substitute for understanding the business need.
+
+## Architecture
+
+Architecture describes the structural model expected for a Capability.
+
+It is not a visual template.
+
+It represents structural relationships such as information organization, navigation and content structure. Technical implementations may differ while preserving the same conceptual architecture.
+
+## Components
+
+Components are reusable units of construction within an architecture.
+
+They are designed for reuse across Capabilities rather than for a single customer.
+
+## Rules and evidence
+
+Rules define verifiable conditions against the structural model.
+
+When a rule is evaluated, it produces evidence: an observable result rather than an interpretation or decision.
+
+Cercalis separates:
+
+- what was expected,
+- what was observed,
+- what those observations mean,
+- and what action should follow.
+
+## Findings, recommendations and implementations
+
+Evidence can be interpreted into a **Finding**.
+
+A Finding describes the meaning of one or more related observations.
+
+A **Recommendation** converts that diagnosis into an actionable direction: what should be done.
+
+An **Implementation** defines how that recommendation can be executed.
+
+## Implementations are not services
+
+An **Implementation** corrects or improves an existing solution.
+
+A **Service** expands what a customer can do.
+
+This distinction prevents commercial offerings, technical actions and reusable platform knowledge from becoming the same concept.
+
+## Integrations
+
+Integrations connect modules, products, external systems or AI providers.
+
+Their role is to transport communication and expose capabilities. Business logic remains with the domain that owns it.
+
+## Why model capabilities this way?
+
+Because the platform needs to answer more than:
+
+> “Can we build this?”
+
+It also needs to understand:
+
+- What business need does it serve?
+- What knowledge already exists?
+- What can be reused?
+- How can the expected structure be validated?
+- What evidence supports a decision?
+- What action follows from that evidence?
+- How mature is the Capability?
+- How can it evolve without losing traceability?
+
+The Capability is the unit that keeps those questions connected.
