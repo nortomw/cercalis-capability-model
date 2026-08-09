@@ -49,7 +49,7 @@ Una capacidad representa conocimiento reutilizable y no pertenece a un cliente c
 
 Una Capability conecta el contexto de negocio con la estructura, la validación, la acción y la evolución.
 
-![Cercalis Capability Model](diagrams/capability-model.svg)
+![Cercalis Capability Model]capability-model.svg
 
 El modelo permite mantener relacionadas distintas capas de conocimiento sin convertirlas en una única cosa:
 
@@ -61,7 +61,7 @@ La tecnología participa en este modelo como medio de implementación, no como p
 
 Cercalis separa explícitamente lo que observa, lo que interpreta y la acción que finalmente puede ejecutarse.
 
-![Evidence to Action](diagrams/evidence-to-action.svg)
+![Evidence to Action]evidence-to-action.svg
 
 La cadena conceptual es:
 
