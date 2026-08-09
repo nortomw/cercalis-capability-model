@@ -190,7 +190,7 @@ A capability represents reusable knowledge and does not belong to a specific cus
 
 A Capability connects business context with structure, validation, action and evolution.
 
-![Cercalis Capability Model](diagrams/capability-model.svg)
+![Cercalis Capability Model](./capability-model.svg)
 
 The model keeps different layers of knowledge connected without turning them into the same concept:
 
@@ -202,7 +202,7 @@ Technology participates in this model as a means of implementation, not as the s
 
 Cercalis explicitly separates what is observed, what is interpreted and the action that can ultimately be executed.
 
-![Evidence to Action](diagrams/evidence-to-action.svg)
+![Evidence to Action](./evidence-to-action.svg)
 
 The conceptual chain is:
 
